@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>MY first HTML-document</title>
+  <style>
+   h1 {
+    font-weight: normal; /* Нормальное начертание */
+   } 
+   .select {
+    color: maroon; /* Цвет текста */
+    font-weight: 600; /* Жирное начертание */
+   }
+  </style>
+  
+  <style type="text/css">
+   .block1 { 
+    width: 50px; 
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+   }
+   .block2 { 
+    width: 200px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 90px; 
+    left: -30px; 
+   }
+  </style> 
+ </head>
+ <body>
+  <h1><a ink=“#”>Лабораторная работа №1</h1><br> 
+  <p><span class="select">Вариант №3</span></p><br>
+  
+  <p><b>Оформленный текст</b></p>
+
+  <div class="block1"><p><b><i>E=mc<sup>2</sup></i></b>,</div>
+       <div class="block2">где <b>E</b> &mdash; энергия объекта,<br> <b>m</b> &mdash; его масса, <br><b>c</b> &mdash; скорость света в вакууме, равная 299 792 458 <i>м/с</i> </div> 
+
+
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <p><b>Список</b></p>
+  <br>
+  <br>
+  <br>
+
+  <select>
+      <option>1.Андрос Артур Миколайович</option>
+      <option>2.Безсонов Сергій Олексійович</option>
+      <option>3.Бондар Олексій Романович</option>
+      <option>4.Грачов Іван Юрійович</option>
+      <option>5.Гудзинський Іван Вікторович</option>
+      <option>6.Ільяшов Олександр Андрійович</option>
+      <option>7.Ісаков Артем Петрович</option>
+      <option>8.Калюга Владислав Вадимович</option>
+      <option>9.Коротецький Олександр Олексійович</option>
+      <option>10.Костенко Оформленный Сергійович</option>
+      <option>11.Кравченко Сергій Олексійович</option>
+      <option>12.Краснов Ілля Олександрович</option>
+      <option>13.Левчук Артем Олександрович</option>
+      <option>14.Лега Євгенія Сергіївна</option>
+      <option>15.Лифар Дмитро Сергійович</option>
+      <option>16.Лутай Владислав Олегович</option>
+      <option>17.Марцин Денис Вадимович</option>
+      <option>18.Мірошниченко Регіна Олександрівна</option>
+      <option>19.Руденко Ігор Володимирович</option>
+      <option>20.Санін Антон Олексійович</option>
+      <option>21.Сапега Олексій Андрійович</option>
+      <option>22.Селезньов Антон Олексійович</option>
+      <option>23.Сіленко Максим Сергійович</option>
+      <option>24.Філенко Владислав Петрович</option>
+      <option>25.Чикота Віталій Юрійович</option>
+      <option>26.Шевченко Олексій Тарасович</option>
+    </select>
+  </p>
+  <br>
+  <br>
+  <br>
+
+  
+  <p><b>Таблица</b></p>
+  <table border="5">
+
+      <tr><th>Глава</th><th>Страница</th></tr> 
+      <tr><td>Введение</td><td>2</td></tr>    
+      <tr><td>Электрическое поле</td><td>6</td></tr>
+      <tr><td>Постоянный электрический ток</td><td>58</td></tr>
+      <tr><td>Магнитное поле</td><td>71</td></tr>
+      <tr><td>Электромагнитные колебания и волны</td><td>103</td></tr>
+      <tr><td>Оптика</td><td>147</td></tr>
+      <tr><td>Основы специальной теории относительности</td><td>184</td></tr>
+      <tr><td>Квантовая физика</td><td>219</td></tr>
+      <tr><td>Физика атома и атомного ядра</td><td>251</td></tr>
+      <tr><td>Дополнение А</td><td>288</td></tr>
+
+</table>
+
+<br>
+<br>
+
+<p><b>Форма с управляющими элементами</b></p>
+    
+<form name="test" method="post" action="input1.php">
+
+        <p><b>Введите ФИО:</b><br>
+         <input type="text" size="55">
+        </p>
+        <Br>
+
+        <p><b>Какая тема для Вас самая понятная:</b><Br>
+        <input type="radio" name="fizics" value="pole">Электрическое поле<Br>
+        <input type="radio" name="fizics" value="tok">Постоянный электрический ток<Br>
+        <input type="radio" name="fizics" value="magnitnoe">Mагнитное поле<Br>
+        <input type="radio" name="fizics" value="volny">Электромагнитные колебания и волны<Br>
+        <input type="radio" name="fizics" value="optika">Оптика<Br>
+        <input type="radio" name="fizics" value="teoriia">Основы специальной теории относительности<Br>
+        <input type="radio" name="fizics" value="kvant">Квантовая физика<Br>
+        <input type="radio" name="fizics" value="atom">Физика атома и атомного ядра<Br>
+    
+        </p>
+        <Br>
+
+        <p>Что вы бы хотели изменить в обучении?<Br>
+            Ваш Комментарий:<Br>
+         <textarea name="comment" cols="55" rows="7"></textarea></p>
+        <p>
+           <input type="reset" value="Очистить">
+        </p>
+        
+    
+</form>
+<Br>
+<Br>
+<Br> 
+
+    
+    <p><b>Ссылки</b></p>
+    <Br>
+
+    <p>Дополнительную информацию можно найти, нажав на
+            <a href="http://gutpfusik.blogspot.com/2013/10/blog-post.html" 
+               title="Фізика - це легко та цікаво. Знати фізику - розуміти багатогранний та неповторний світ природи"> добрую физику :)
+            </a>.
+    </p>
+    <p>А также на
+            <a href="http://physic.cx.ua/elektrichne-pole-2/" 
+               title="physics_book"> физику для школьников и студентов
+            </a>.
+    </p>
+
+    <p>И конечно же более подробную информацию Вы сможете найти здесь
+            <a href="http://www.philsci.univ.kiev.ua/biblio/Fok.html" 
+               title="fok"> квантовую физику и строение материи
+            </a>.
+    </p>
+
+
+        <Br>
+        <Br>
+        <Br>
+        <Br>
+        <Br>
+ </body>
+</html>
